@@ -9,6 +9,7 @@ Completed Features:
 - Clicking on an image opens a larger view with image description (truncated)
 	- Clicking anywhere on this view will close the image
 - Search capability using tags (comma separated), or phrases in the description
+	- Tag search is OR'd (contain 1 or more of the tags)
 	- Shows top 30 results
 
 Known bugs:
