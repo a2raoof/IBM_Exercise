@@ -1,5 +1,5 @@
-Asim Raoof
-IBM Coding Challenge
+Asim Raoof - 
+IBM Coding Challenge - 
 NASA Flickr Web App
 
 Completed Features:
@@ -16,7 +16,7 @@ Known bugs:
 	-Uses HTML5 templates which is not supported by IE
 
 Tested on:
-Google Chrome
-Mozilla Firefox
+Google Chrome,
+Mozilla Firefox,
 Internet Explorer (not working...)
 
