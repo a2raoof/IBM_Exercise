@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>IBM Exercise</title>
+
+    <link rel="stylesheet" href="css/ibm-exer.css"/>
+    <script src="js/ibm-exer.js"></script>
+
+</head>
+<body>
+
+<div id="header-id" class="header">
+	<h1 class="logo" onClick="window.location.reload()">NASA!</h1>
+    
+    <div id="toolbar-id" class="tools">
+        <input id="search-word" type="text" name="search" class="searchBox">
+        <input type="submit" value="Search" class="searchButton" onClick="searchQuery()"><br/>
+        <input id="tag-radio" type="radio" name="searchType" value="Tags" class="searchRadio" checked>Tags
+        <input id="desc-radio" type="radio" name="searchType" value="Description" class="searchRadio">Description
+        
+    </div>
+</div>
+<div class="clear"></div>
+<span id="results-text" class="pageNav" style="display:none;">Search Results</span>
+<div id="page-nav" class="pageNav">
+
+<span id="prev-id" style="text-decoration:underline; cursor:pointer;">< Prev Page</span>
+<span id="page-id">||</span>
+<span id="next-id" style="text-decoration:underline; cursor:pointer;">Next Page ></span>
+<br/>
+</div>
+
+<div id="app-container" class="content">
+
+</div>
+
+<template id="image-template">
+    <div class="picContainer">
+        <img class="picture" />
+    </div>
+    <div class="metadata">
+        <p class="fileName"></p>
+        <p class="modDate" style="margin-top:0px;">Uploaded: </p>
+        
+    </div>
+    <div class="clear"></div>
+</template>
+
+<template id="full-image">
+    <img class="fullSizeImage" />
+    <p class="picDesc"></p>
+</template>
+
+</body>
+</html>
